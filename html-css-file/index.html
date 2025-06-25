@@ -1,413 +1,114 @@
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Kaay Sagnsé</title>
-  <link rel="stylesheet" href="style.css" />
-</head>
-<body>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+  </head>
+  <body>
 
-  <header>
-    <div class="navbar">
-      
-      <!-- Logo -->
-      <div class="logo">
-        <img src="Images/istockphoto-1365118618-2048x2048.jpg" alt="Logo">
-        <span>Kaay Sagnsé</span>
-      </div>
-
-      
-      <!-- Navigation principale -->
-      <nav>
-        <ul class="nav-links">
-          <li><a href="index.html">Accueil</a></li>
-          
-          <!-- Dropdown Vêtements -->
-          <li class="dropdown">
-            <a href="#">Categories▾</a>
-            <ul class="dropdown-menu">
-              <li><a href="homme.html">Homme</a></li>
-              <li><a href="#">Femme</a></li>
-              <li><a href="#">Enfant</a></li>
-              <li><a href="accessoire.html">Accessoires</a></li>
-              
-            </ul>
-          </li>
-        </ul>
-      </nav>
-   <!-- Barre de recherche -->
-      <div class="search-container">
-        <input type="text" class="search-bar" placeholder="Rechercher un produit...">
-      </div>
-      <!-- Connexion / Inscription -->
-      <div class="auth-links">
-       <BUtton class="btn-connexion"> <a href="#">Connexion</a></BUtton>
-      
-      </div>
-
-    </div>
-  </header>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 premier">
+                <h3><b>Se connecter</b></h3>
+                <hr>
+                <h5><b>Avec</b></h5>
+                <form>
+  <div class="mb-3">
+    
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Adresse email">
+   
+  </div>
+  <div class="mb-3">
+    
+    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Mot de passe">
+  </div>
+  <div class="mb-3 form-check ">
+    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+   <div class="oublier">
+     <label class="form-check-label" for="exampleCheck1">Se souvenir de moi </label>
+     <a class="deco">Vous avez oublié votre mot de passe ?</a>
 </div>
-</section>
-<section  class="Contrôles">
-    <!-- Contrôles -->
-    <div class="controls">
-        <button class="filter-btn"><i class='bx bx-filter'></i> FILTER</button>
-        <div class="grid-options">
-            <i class='bx bx-dots-horizontal'></i>
-            <i class='bx bx-grid-small'></i>
-            <i class='bx bx-grid-horizontal'></i>
-        </div>
-         <select class="sort">
-            <option>Featured</option>
-            <option>opt1</option>
-            <option>opt2</option>
-        </select>
-        </div>
-        </section>
-<section class="collection2">
-    <div class="article2">
-        <img src="Images/WhatsApp Image 2025-06-25 à 07.03.46_2f9dcfab.jpg" alt="Tank top">
-        <h3>Tenue 3 pieces tendance<h3>
-        <p>60000 Fcfa</p>
-        <div class="even">
-            <a href="details.html"> <button>Details</button></a>
-        </div>
-    </div>
-    <div class="article2">
-        <p> <span>-32%</span></p>
-        <img src="Images/WhatsApp Image 2025-06-25 à 07.03.47_cc885a41.jpg" alt="" class="image-reduct">
-        <h3>Tenue tendance africaine </h3>
-        <p>75000 Fcfa</p>
-        <div class="even">
-            <a href="details.html"> <button>Details</button></a>
-           
-        </div>
+  </div>
+ <hr>
+ <div class="d-flex justify-content-end">
+    <button type="button" class="btn yy btn-lg">Connexion</button>
+ </div>
 
-    </div>
-    <div class="article2">
-        <img src="Images/WhatsApp Image 2025-06-25 à 07.03.48_08c91520.jpg"  alt="T-shirt">
-        <h3>Tenue 2 pièces tendance</h3>
-        <p>30000 Fcfa</p>
-          <a href="details.html"> <button>Details</button></a>
-    </div>
-   
-    <div class="article2">
-        <img src="Images/WhatsApp Image 2025-06-25 à 07.03.49_6701fac1.jpg" alt="T-shirt">
-        <h3>Tenue traditionnelle africaine</h3>
-        <p>75000 Fcfa</p>
-        <div class="even">
-            <a href="details.html"> <button>Details</button></a>
-        </div>
-       
-    </div>
+</form>
+</div>
 
-</section>
-<section class="collection3">
-    <div class="article3">
-        <img src="Images/WhatsApp Image 2025-06-25 à 07.03.48_b62e38e5.jpg" alt="">
-        <h3>Costume 3 pièces</h3>
-        <p>80000 Fcfa</p>
-        <div class="even">
-           <a href="details.html"> <button>Details</button></a>
-        </div>
-    </div>
-    <div class="article3">
-        
-        <img src="Images/dfi.avif" alt="">
-        <h3>Costume 3 pièces avec cravate <a</span></h3>
-            <p>100000 Fcfa</p>
-        <div class="even">
-           <a href="details.html"> <button>Details</button></a>
-            
-            
-        </div>
-
-    </div>
-    <div class="article3">
-        <img src="Images/WhatsApp Image 2025-06-25 à 07.03.48_b9b01f91.jpg" alt="">
-        <h3>costume 3 pièces avec cravate tendance</h3>
-        <p>150000 Fcfa</p>
-        <div class="even">
-            <a href="details.html"> <button>Details</button></a>
-        </div>
-    </div>
+<div class="col-md-12">
+   <div class="add">
+     <h4 class="text-center"><b>Pas de compte ? Créer un compte</b></h4>
+    <p class="text-center"><small>L'inscription prend moins d'une minute mais vous donne un controle total sur vos <br>commandes.</small></p>
+   </div>
+    <!-- form -->
     
-    <div class="article3">
-        <img src="Images/WhatsApp Image 2025-06-25 à 07.03.48_c9d15349.jpg" alt="T-shirt">
-        <h3>Costume 2 pièces accompagné de ceinture</h3>
-        <p>70000 Fcfa</p>
-        <div class="even">
-          <a href="#"> <button>Details</button></a>
-        </div>
-    </div>
-</section>
-<section class="collection4">
-    <div class="article4">
-        <img src="Images/WhatsApp Image 2025-06-25 à 07.03.47_5141e4e2.jpg" alt="">
-        <h3>Tenue sport 2 pièces imprimé<h3>
-        <p>15000 Fcfa</p>
-        <div class="even">
-           <a href="details.html"> <button>Details</button></a>
-        </div>
-    </div>
-    <div class="article4">
-        <img src="Images/WhatsApp Image 2025-06-25 à 07.03.46_e1282583.jpg" alt="" class="image-reduct">
-        <h3>T-shirt</h3>
-        <p>3000 Fcfa</p>
-        <div class="even">
-           <a href="details.html"> <button>Details</button></a>
-        </div>
 
-    </div>
-    <div class="article4">
-        <img src="Images/WhatsApp Image 2025-06-25 à 07.03.47_cf128c3d.jpg" alt="T-shirt">
-        <h3>Short long</h3>
-        <p>5000 Fcfa</p>
-        <div class="even">
-           <a href="details.html"> <button>Details</button></a>
-        </div>
-    </div>
-    <div class="article4">
-        <img src="Images/WhatsApp Image 2025-06-25 à 07.03.46_b7ad71db.jpg" alt="T-shirt" width="400px">
-        <h3>T-shirt cotton</h3>
-        <p>3500 Fcfa</p>
-        <div class="even">
-            <a href="details.html"> <button>Details</button></a>
-        </div> 
-    </div>
-</section>
-<section class="collection4">
-    <div class="article4">
-        <img src="Images/WhatsApp Image 2025-06-25 à 07.03.49_fa0ee627.jpg" alt="">
-        <h3>Ensemble jogging<h3>
-        <p>15000 Fcfa</p>
-        <div class="even">
-           <a href="details.html"> <button>Details</button></a>
-        </div>
-    </div>
-    <div class="article4">
-        <img src="Images/WhatsApp Image 2025-06-25 à 07.03.47_8730fbd5.jpg" alt="" class="image-reduct">
-        <h3>Ensemble 2 pièces T-shirt à manches</h3>
-        <p>20000 Fcfa</p>
-        <div class="even">
-          <a href="details.html"> <button>Details</button></a>
-        </div>
 
-    </div>
-    <div class="article4">
-        <img src="Images/WhatsApp Image 2025-06-25 à 07.03.49_b150dfc6.jpg" alt="T-shirt">
-        <h3>Ensemble jogging</h3>
-        <p>25000 Fcfa</p>
-        <div class="even">
-            <a href="details.html"> <button>Details</button></a>
-        </div>
-    </div>
-    <div class="article4">
-        <img src="Images/spor.webp" alt="T-shirt">
-        <h3>Ensemble 2 pièces T-shirt à manches</h3>
-        <p>20000 Fcfa</p>
-        <div class="even">
-            <a href="details.html"> <button>Details</button></a>
-        </div> 
-    </div>
-</section>
-    </div>
-</section>
-<section class="collection2">
-    <div class="article2">
-        <img src="Images/WhatsApp Image 2025-06-24 à 11.04.12_590eeab5.jpg" alt="Tank top">
-        <h3>Bracelet cheville<h3>
-        <p>3000 F cfa</p>
-          <a href="details.html"> <button>Details</button></a>
-        
-    </div>
-    <div class="article2">
-        <p> <span></span></p>
-        <img src="Images/WhatsApp Image 2025-06-24 à 11.04.11_5caa6f1a.jpg" alt="" class="image-reduct">
-        <h3>Clé </h3>
-        <p>1000 F cfa</p>
-          <a href="details.html"> <button>Details</button></a>
-        </div>
 
-    </div>
-    <div class="article2">
-        <img src="Images/WhatsApp Image 2025-06-24 à 11.03.46_07c5e4cf.jpg" alt="T-shirt">
-        <h3>Sac à main </h3>
-        <p>7000 F cfa</p>
-          <a href="details.html"> <button>Details</button></a>
-    </div>
-   
-    <div class="article2">
-        <img src="Images/WhatsApp Image 2025-06-24 à 11.03.46_b71a6c09.jpg" alt="T-shirt">
-        <h3>BraceletClasic</h3>
-        <p>5000 F cfa</p>
-          <a href="details.html"> <button>Details</button></a>
-       
+
+
+
+
+<div class="input-group mb-3 adres">
+  <div class="d-flex flex-column">
+      <p><b>Prénom Nom</b></p>
+  <input type="text" class="form-control" placeholder="Nom Complet" aria-label="Username">
+  
+  </div>
+
+  <div class="d-flex flex-column">
+  <p><b>Adresse email</b></p>
+  <input type="text" class="form-control" placeholder="Adresse email" aria-label="Server">
+  </div>
+</div>
+
+
+<div class="input-group mb-3 adres ">
+   <div class="d-flex flex-column">
+     <p><b>Password</b></p>
+  <input type="text" class="form-control" placeholder="Mot de passe" aria-label="Username">
+   </div>
+  <div class="d-flex flex-column">
+    <p><b>Confirm Password</b></p>
+  <input type="text" class="form-control" placeholder="Confirmez le mot de passe" aria-label="Server">
+  </div>
+</div>
+
+
+<div class="form-check">
+  <input class="form-check-input" type="checkbox" value="" id="checkDefault">
+  <label class="form-check-label" for="checkDefault">
+    J'accepte les termes et conditions de la politique de confidentialité
+  </label>
+</div>
+
+
+
+
+     <!-- form -->
+
+
+<div class="d-flex justify-content-end">
+    <button type="button" class="btn yy btn-lg">S'inscrire</button>
+ </div>
+
+
+
+
+
+</div>
+        </div>
     </div>
 
-</section>
-<section class="collection3">
-    <div class="article3">
-        <img src="Images/WhatsApp Image 2025-06-24 à 11.03.46_ef765bdc.jpg" alt="">
-        <h3>Ceinture</h3>
-        <p>2500 F cfa</p>
-          <a href="details.html"> <button>Details</button></a>
-    </div>
-    <div class="article3">
-        
-        <img src="Images/WhatsApp Image 2025-06-24 à 11.03.47_bba9bec5.jpg" alt="">
-        <h3>Bracelet homme<a></a></span></h3>
-            <p>500 F cfa</p>
-               <a href="details.html"> <button>Details</button></a>
-      </div>
 
-    </div>
-    <div class="article3">
-        <img src="Images/WhatsApp Image 2025-06-24 à 11.03.48_b8bf3bc0.jpg" alt="">
-        <h3>Sacoche</h3>
-        <p>6000 F cfa</p>
-         <a href="details.html"> <button>Details</button></a>
-    </div>
-    
-    <div class="article3">
-        <img src="Images/WhatsApp Image 2025-06-24 à 11.03.54_11c05db1.jpg" alt="T-shirt">
-        <h3>bijoux</h3>
-        <p>4000 F cfa</p>
-          <a href="details.html"> <button>Details</button></a>
-</section>
-<section class="collection2">
-    <div class="article2">
-        <img src="Images/WhatsApp Image 2025-06-24 à 11.03.50_77300bc8.jpg" alt="">
-        <h3>Perle<h3>
-        <p>2000 F cfa</p>
-          <a href="details.html"> <button>Details</button></a>
-    </div>
-    <div class="article2">
-        <img src="Images/WhatsApp Image 2025-06-24 à 11.03.50_f7589e5d.jpg
-        " alt="" class="image-reduct">
-        <h3>Lunettes Noir Fumé</h3>
-        <p>1000 F cfa</p>
-          <a href="details.html"> <button>Details</button></a>
 
-    </div>
-    <div class="article2">
-        <img src="Images/WhatsApp Image 2025-06-24 à 11.03.51_7b45fba1.jpg" alt="T-shirt">
-        <h3>collection bracelet et chaine</h3>
-        <p>5000 F cfa</p>
-          <a href="details.html"> <button>Details</button></a>
-    </div>
-    <div class="article2">
-        <img src="Images/WhatsApp Image 2025-06-24 à 11.03.51_f0da4946.jpg" alt="T-shirt">
-        <h3> collection montre ,bracelet et chaine</h3>
-        <p>9000 Fcfa</p>
-          <a href="details.html"> <button>Details</button></a>
-    </div>
-    <div class="article2">
-        <img src="Images/WhatsApp Image 2025-06-24 à 11.03.52_a9ccbcc4.jpg" alt="T-shirt">
-        <h3>Ceinture Luis vuitton</h3>
-        <p>1000 F cfa</p>
-          <a href="details.html"> <button>Details</button></a>
-    </div>
-   </section>
-<section class="collection2">
-    <div class="article2">
-        <img src="Images/woman-518275_1280.jpg" alt="">
-        <h3>Colier<h3>
-        <p>12000 F cfa</p>
-          <a href="details.html"> <button>Details</button></a>
-    </div>
-    <div class="article2">
-        <img src="Images/woman-8561067_1280.png" alt="" class="image-reduct">
-        <h3>Colier en or</h3>
-        <p>100000 Fcfa</p>
-          <a href="details.html"> <button>Details</button></a>
 
-    </div>
-    <div class="article2">
-        <img src="Images/cap-304059_1280.webp" alt="T-shirt">
-        <h3>Casquette</h3>
-        <p>2000 F cfa</p>
-          <a href="details.html"> <button>Details</button></a>
-    </div>
-    <div class="article2">
-        <img src="Images/handbag-8310851_1280 (1).jpg" alt="T-shirt">
-        <h3> Sacs</h3>
-        <p>4500 F cfa</p>
-          <a href="details.html"> <button>Details</button></a>
-    </div>
-    <div class="article2">
-        <img src="Images/accessory-6806606_1280.jpg" alt="T-shirt">
-        <h3>Bague</h3>
-        <p>3000 F cfa</p>
-          <a href="details.html"> <button>Details</button></a>
-    </div>
-   </section>
 
-<section class="boutons">
-    <div class="boutons-carres">
-        <div class="bouton-carre1">1</div>
-        <div class="bouton-carre">2</div>
-        <div class="bouton-carre">3</div>
-        <div class="bouton-carre">4</div>
-        <div class="bouton-carre"><i class='bx bx-chevron-right'></i></div>
-
-    </div>
-
-</section>
-<footer>
-    <div class="footer-container">
-        <div class="footer-sec">
-            <h3>ECOMUS</h3>
-            <p>Votre boutique en ligne de cadeaux personnalisés.</p>
-            <div class="footer-icons">
-                <a href="#"><i class='bx bxl-facebook'></i></a>
-                <a href="#"><i class='bx bxl-instagram'></i></a>
-                <a href="#"><i class='bx bxl-twitter'></i></a>
-                <a href="#"><i class="fab fa-tiktok"></i></a>
-            </div>
-        </div>
-        <div class="footer-sec">
-            <h3>Aide</h3>
-            <ul>
-                <li><a href="#">FAQ</a></li>
-                <li><a href="#">Livraison</a></li>
-                <li><a href="#">Retours</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-        </div>
-        <div class="footer-sec">
-            <h3>Produits</h3>
-            <ul>
-                <li><a href="#">Nouveautés</a></li>
-                <li><a href="#">Promotions</a></li>
-                <li><a href="#">Cadeaux</a></li>
-            </ul>
-        </div>
-        <div class="footer-sec">
-            <h3>Inscription à la newsletter</h3>
-            <form class="adresse-form">
-                <div class="input-email">
-                    <input type="email" placeholder="Votre email" required>
-                    <div class="bouton-subcribe">
-                         <button>Sudcribe <i class='bx bxs-right-arrow-alt'></i></button>
-                    </div>
-                </div>
-            </form>
-        </div>
-    </div>
-    <div class="footer-fin">
-        <p>© 2024 - Tous droits réservés</p>
-        <div class="payment">
-            <img src="Images/logo4F.jpg" alt="" height="50px" width="60px">
-            <img src="Images/logo1F.png" alt="" height="50px" width="60px">
-            <img src="Images/logo2F.jpeg" alt=""  height="50px" width="60px">
-            <img src="Images/logo amex.png" alt=""   height="50px" width="60px">
-            <img src="Images/logo3F.jpg" alt=""  height="50px" width="60px">
-        </div>
-
-    </div>
-</footer>
-</body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+  </body>
 </html>

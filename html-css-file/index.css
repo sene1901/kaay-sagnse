@@ -1,0 +1,19 @@
+.yy{
+    background-color: rgb(239, 92, 34);
+    color: white;
+}
+
+.oublier{
+    display: flex;
+    justify-content: space-between;
+}
+.deco{
+    text-decoration: none;
+    color: orangered;
+}
+
+.adres{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
