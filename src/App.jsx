@@ -22,7 +22,7 @@
 // export default App
 // import Navbar from './components/Navbar'
 // import Connexion from './components/Connexion'
-import Inscription from './components/Inscription'
+import Inscription from './components/Connexion'
 import Accueil from './components/Accueil'
 import { Route,Routes } from 'react-router-dom'
 import './App.css'
