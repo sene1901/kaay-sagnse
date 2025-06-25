@@ -13,10 +13,24 @@ function App() {
       Deleniti itaque facere iste numquam qui saepe, deserunt quas quam.</p>
     
     </div> 
-
+      
+      {/*partie connexion  */}
+    <div>
+      <LoginForm />
+    </div>
+  
     <Page />
     </>
   )
 }
 
 export default App
+
+
+
+
+
+import LoginForm from './composant/LoginForm'
+
+
+
