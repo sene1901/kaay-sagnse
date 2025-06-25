@@ -9,9 +9,7 @@ header {
   border-bottom: 1px solid #ddd;
 }
 
-.navbar {
-  
-}
+
 
 /* Logo */
 .logo {
@@ -21,6 +19,27 @@ header {
   font-weight: bold;
   font-size: 20px;
   color: #333;
+}
+.slide-1{
+background: url("Images/departement-vetements-dans-centre-commercial_249974-10148.avif") ;
+background-size: cover;
+ background-position: center; 
+background-repeat: no-repeat;
+}
+.slide-2{
+    background: url("Images/vetements-pour-femmes-cintre-boutique-boutique-moderne_267395-1243.avif") ;
+    background-size: cover;
+background-position: cent; 
+background-repeat: no-repeat;
+
+    
+}
+  /* button scoll */
+.carousel-control-prev, .carousel-control-next{
+    background-color: black;
+    width: 40px;
+    height: 70px;
+    margin: auto;
 }
 
 
@@ -52,7 +71,7 @@ header {
 }
 
 /* Menu navigation */
-.nav-links {
+/*.nav-links {
   list-style: none;
   display: flex;
   gap: 20px;
@@ -60,7 +79,7 @@ header {
   padding: 0;
 }
 
-.nav-links li {
+/*.nav-links li {
   position: relative;
 }
 
@@ -76,7 +95,7 @@ header {
 }
 
 /* Dropdown */
-.dropdown-menu {
+/*.dropdown-menu {
   display: none;
   position: absolute;
   top: 100%;
@@ -99,13 +118,13 @@ header {
 }
 
 /* Connexion */
-.auth-links {
+/*.auth-links {
   display: flex;
   gap: 10px;
   
 }
 
-.auth-links a {
+/*.auth-links a {
   text-decoration: none;
   color: #333;
   font-size: 14px;
@@ -113,7 +132,7 @@ header {
   border-radius: 4px;
 }
 
-.auth-links a:hover {
+/*.auth-links a:hover {
   background-color: red;
   color: #007BFF;
 }

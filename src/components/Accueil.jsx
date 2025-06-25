@@ -65,7 +65,7 @@ function Page() {
         </select>
         </div>
         </section>
-{}
+
     </>
   )
 }
