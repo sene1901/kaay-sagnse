@@ -10,7 +10,11 @@
     "preview": "vite preview"
   },
   "dependencies": {
+<<<<<<< HEAD
     "firebase": "^11.9.1",
+=======
+    "bootstrap": "^5.3.7",
+>>>>>>> 31f85ee6cfbc0f7295768600f007acb80dfb5a74
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
     "react-router-dom": "^7.6.2"

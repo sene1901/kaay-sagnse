@@ -1,0 +1,24 @@
+
+.sec-homme{
+    background-color: #FFFFFF;
+}
+.carte:hover .app{
+    opacity: 1;
+}
+
+.app:hover{
+    cursor: pointer;
+}
+
+
+.app {
+    background-color: #F9F9F9;
+    opacity: 0;
+}
+
+.carte a:hover .app {
+    opacity: 1;
+}
+
+
+ 
