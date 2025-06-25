@@ -48,7 +48,7 @@ function Page() {
 
     </div>
   </header>
-</div>
+    </div>
 <section  className="Contrôles">
 
     <div className="controls">
