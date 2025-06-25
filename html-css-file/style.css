@@ -21,13 +21,13 @@ header {
   color: #333;
 }
 .slide-1{
-background: url("Images/departement-vetements-dans-centre-commercial_249974-10148.avif") ;
+background: url("../src/assets/departement-vetements-dans-centre-commercial_249974-10148.avif") ;
 background-size: cover;
  background-position: center; 
 background-repeat: no-repeat;
 }
 .slide-2{
-    background: url("Images/vetements-pour-femmes-cintre-boutique-boutique-moderne_267395-1243.avif") ;
+    background: url("../src/assets/vetements-pour-femmes-cintre-boutique-boutique-moderne_267395-1243.avif") ;
     background-size: cover;
 background-position: cent; 
 background-repeat: no-repeat;
