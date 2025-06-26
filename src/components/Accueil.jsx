@@ -6,7 +6,7 @@
 import React from "react";
 import '../../html-css-file/style.css'
 
-function Page() {
+function Acceuil() {
 
   return (
     <>
@@ -70,4 +70,4 @@ function Page() {
   )
 }
 
-export default Page
+export default Acceuil

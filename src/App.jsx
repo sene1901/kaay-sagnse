@@ -22,8 +22,9 @@
 // export default App
 // import Navbar from './components/Navbar'
 // import Connexion from './components/Connexion'
-import Inscription from './components/Inscription'
+// import Inscription from './components/Inscription'
 import Accueil from './components/Accueil'
+import Homme from './components/homme'
 import { Route,Routes } from 'react-router-dom'
 import './App.css'
 
@@ -35,7 +36,7 @@ function App() {
     {/* <Navbar></Navbar> */}
     <Routes>
       <Route path='/' element={  <Accueil />} />
-      <Route path='/' element={  <Homme />} />
+      <Route path='/Homme' element={  <Homme />} />
       {/* <Route path='/connexion' element={<Connexion></Connexion>} /> */}
       {/* <Route path='/inscription' element={<Inscription></Inscription>} /> */}
     </ Routes>
@@ -44,11 +45,9 @@ function App() {
 
       
       {/*partie connexion  */}
-    <div>
-      <LoginForm />
-    </div>
+    
   
-    <Page />
+    <Accueil />
     <Homme />
 
     </>
