@@ -1,29 +1,29 @@
 import React from "react";
-import '../../html-css-file/style-homme.css';
+import '../../html-css-file/style-femme.css';
 
 
-import image1 from '../assets/IMG-20250624-WA0069.jpg';
-import image2 from '../assets/IMG-20250624-WA0070.jpg';
-import image3 from '../assets/IMG-20250624-WA0073.jpg';
-import image4 from '../assets/IMG-20250624-WA0075.jpg';
-import image5 from '../assets/IMG-20250624-WA0077.jpg';
- import image6 from '../assets/IMG-20250625-WA0039.jpg';
- import image7 from '../assets/IMG-20250625-WA0056.jpg';
- import image8 from '../assets/IMG-20250625-WA0043.jpg';
-import image9 from '../assets/IMG-20250625-WA0051.jpg';
-import image10 from '../assets/IMG-20250625-WA0047.jpg';
- import image11 from '../assets/IMG-20250625-WA0053.jpg';
- import image12 from '../assets/IMG-20250625-WA0059.jpg';
+import image1 from '../assets/IMG-20250624-WA0066.jpg';
+import image2 from '../assets/IMG-20250624-WA0078.jpg';
+import image3 from '../assets/IMG-20250624-WA0074.jpg';
+import image4 from '../assets/IMG-20250624-WA0072.jpg';
+import image5 from '../assets/IMG-20250624-WA0082.jpg';
+ import image6 from '../assets/IMG-20250624-WA0074.jpg';
+ import image7 from '../assets/proxy-image.jpeg';
+ import image8 from '../assets/proxy-image1.jpeg';
+import image9 from '../assets/proxy-image2.jpeg';
+import image10 from '../assets/proxy-image3.jpeg';
+ import image11 from '../assets/proxy-image4.jpeg';
+ import image12 from '../assets/proxy-image5.jpeg';
 // import image13 from '../assets/IMG-20250624-WA0063.jpg';
 
 
-function Homme() {
+function Femme() {
   return (
     <>
       <div className="nom">
         <section>
-          <div className="sec-homme text-center rounded-pill" style={{ backgroundColor: '#RRGGBBAA' }}>
-            <h1>Collection Homme</h1>
+          <div className="sec-homme text-center rounded-pill" style={{ backgroundColor: '#CEC4BA' }}>
+            <h1>Collection Femme</h1>
           </div>
 
           <div className="container">
@@ -36,8 +36,8 @@ function Homme() {
                     <img src={img} className="card-img-top tofs" alt="costume homme" />
                     <div>
                       <div className="ms-4">
-                        <h6>Costume</h6>
-                        <h6>60 000 Fcfa</h6>
+                        <h6>Collection Femme</h6>
+                        <h6>15 000 Fcfa</h6>
                       </div>
 
                       <div className="card-body app d-flex justify-content-between">
@@ -76,7 +76,7 @@ function Homme() {
                     <img src={img} className="card-img-top " alt="costume homme" />
                     <div>
                       <div className="ms-4">
-                        <h6>Collection Homme</h6>
+                        <h6>Collection Femme</h6>
                         <h6>20 000 Fcfa</h6>
                       </div>
 
@@ -117,7 +117,7 @@ function Homme() {
                     <img src={img} className="card-img-top tofs" alt="costume homme" />
                     <div>
                       <div className="ms-4">
-                        <h6>Collection Homme</h6>
+                        <h6>Collection Femme</h6>
                         <h6>30 000 Fcfa</h6>
                       </div>
 
@@ -158,4 +158,4 @@ function Homme() {
   );
 }
 
-export default Homme;
+export default Femme;
