@@ -105,6 +105,32 @@
         </div>
     </div>
 
+    <script>
+  // Exemple : informations d'un utilisateur enregistré (fictives)
+  const utilisateurEnregistre = {
+    email: "adamsdiene@gmail.com",
+    motDePasse: "diene05"
+  };
+
+  document.addEventListener("DOMContentLoaded", function () {
+    const boutonConnexion = document.querySelector(".btn.yy"); // Premier bouton (connexion)
+    const emailInput = document.getElementById("exampleInputEmail1");
+    const mdpInput = document.getElementById("exampleInputPassword1");
+
+    boutonConnexion.addEventListener("click", function () {
+      const email = emailInput.value.trim();
+      const motDePasse = mdpInput.value.trim();
+
+      if (email === utilisateurEnregistre.email && motDePasse === utilisateurEnregistre.motDePasse) {
+        alert("✅ Connexion réussie !");
+      } else {
+        alert("❌ Adresse email ou mot de passe incorrect.");
+      }
+    });
+  });
+</script>
+
+
 
 
 

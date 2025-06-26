@@ -4,8 +4,7 @@
 // import './App.css'
 
 import React from "react";
-import '../../html-css-file/style.css'
-
+import '../components/Connexion'
 function Page() {
 
   return (
@@ -65,7 +64,7 @@ function Page() {
         </select>
         </div>
         </section>
-{}
+
     </>
   )
 }
