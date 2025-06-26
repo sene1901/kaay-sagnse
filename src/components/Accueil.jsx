@@ -15,7 +15,8 @@ import image11 from '../assets/IMG-20250624-WA0061.jpg';
 import image12 from '../assets/IMG-20250624-WA0062.jpg';
 import image13 from '../assets/IMG-20250624-WA0063.jpg';
 
-function Accueil() {
+function Acceuil() {
+
   return (
     <div className='nom'>
       <div id="carouselExampleInterval" className="carousel slide" data-bs-ride="carousel">
