@@ -232,6 +232,13 @@ import image13 from '../assets/IMG-20250624-WA0063.jpg';
 function Enfants() {
   return (
     <>
+
+    <section>
+        <div class="baniere">
+            <h1 class="text-center fw-bold"> Collection Enfants Disponible !</h1>
+            <p class="text-center">Habille tes petits princes et princesses avec style</p>
+        </div>
+    </section>
       <section>
         <div className="container">
           <div className="row ">
