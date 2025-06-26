@@ -22,26 +22,53 @@
 // export default App
 // import Navbar from './components/Navbar'
 // import Connexion from './components/Connexion'
-import Inscription from './components/Inscription'
+// import Inscription from './components/Inscription'
+// import Accueil from './components/Accueil'
+// import { Route,Routes } from 'react-router-dom'
+// import Enfants from './components/Enfants'
+// import './App.css'
+
+// function App() {
+
+//   return (
+//     <>
+//      <div>
+//     {/* <Navbar></Navbar> */}
+//     <Routes>
+//       <Route path='/' element={  <Accueil />} />
+//        <Route path='/' element={  <Enfants />} />
+//       {/* <Route path='/connexion' element={<Connexion></Connexion>} /> */}
+//       <Route path='/inscription' element={<Inscription></Inscription>} />
+//     </ Routes>
+//     <footer></footer>
+//     </div> 
+//     </>
+//   )
+// }
+// export default App
+ 
+
+// import Inscription from './components/Inscription'
 import Accueil from './components/Accueil'
-import { Route,Routes } from 'react-router-dom'
+import { Route, Routes } from 'react-router-dom'
+import Enfants from './components/Enfants'
 import './App.css'
 
 function App() {
-
   return (
     <>
-     <div>
-    {/* <Navbar></Navbar> */}
-    <Routes>
-      <Route path='/' element={  <Accueil />} />
-      {/* <Route path='/connexion' element={<Connexion></Connexion>} /> */}
-      <Route path='/inscription' element={<Inscription></Inscription>} />
-    </ Routes>
-    <footer></footer>
-    </div> 
+      <div className="Enfants">
+        {/* <Enfants/> */}
+
+        {/* <Navbar /> */}
+        <Routes>
+          <Route path='/' element={<Accueil />} />
+          <Route path='/enfants' element={<Enfants />} />
+          {/* <Route path='/inscription' element={<Inscription />} /> */}
+        </Routes>
+        <footer></footer>
+      </div>
     </>
   )
 }
-
 export default App
