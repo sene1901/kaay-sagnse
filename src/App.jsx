@@ -26,6 +26,7 @@ import Inscription from './components/Connexion'
 import Accueil from './components/Accueil'
 import { Route,Routes } from 'react-router-dom'
 import './App.css'
+import Navbar from './components/Navbar'
 
 function App() {
 
@@ -36,7 +37,7 @@ function App() {
     <Routes>
       <Route path='/' element={  <Accueil />} />
       {/* <Route path='/connexion' element={<Connexion></Connexion>} /> */}
-      <Route path='/inscription' element={<Inscription></Inscription>} />
+      <Route path='/Navbar' element={<Navbar/>} />
     </ Routes>
     <footer></footer>
     </div> 
