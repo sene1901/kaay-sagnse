@@ -1,20 +1,88 @@
-<<<<<<< HEAD
-=======
+
 /* navbar */
->>>>>>> d5d657cdc8eb94008b1943e630f7d47ba8df8cd7
+
 .monNav{
   width: 100%;
   height: 100px;
   background-color: blue;
+}
+.carte:hover .app{
+    opacity: 1;
+}
+.app:hover{
+    cursor: pointer;
+}
+
+
+.app {
+    background-color: #F9F9F9;
+    opacity: 0;
+}
+
+.carte a:hover .app {
+  opacity: 1;
+}
+
+
+
+.card-img-top {
+    height: 400px;
+    object-fit: cover;
+  border-radius: 20px;
+  box-shadow: 0 9px 10px rgba(0, 0, 0, 0.3);
+  /* animation: bounceRotateZoom 4s infinite ease-in-out; */
+  transition: transform 0.5s;
+}
+.card-img-top:hover{
+    transition: transform 0.5s;
+      transform: scale(0.9) ;
+}
+
+
+.animated-image:hover {
+  transform: scale(1.1) rotate(5deg);
+}
+
+@keyframes bounceRotateZoom {
+  0% {
+    transform: scale(1) rotate(0deg) translateY(0px);
+  }
+  25% {
+    transform: scale(1.05) rotate(3deg) translateY(-10px);
+  }
+  50% {
+    transform: scale(0.95) rotate(-3deg) translateY(5px);
+  }
+  75% {
+    transform: scale(1.08) rotate(5deg) translateY(-8px);
+  }
+  100% {
+    transform: scale(1) rotate(0deg) translateY(0px);
+  }
+}
+
+
+.btn{
+    border: none;
+    background-color: rgba(90, 43, 10, 0.671);
+    color: bisque;
+    font-weight: bold;
+}
+.btn:hover
+{
+    background-color: #F5D2BC;
+    color:  rgba(90, 43, 10, 0.671);
+    font-weight: bold;
 
 }
-.connexion{
-  background-color: brown;
-  padding: 50px;
-  width: 50%;
+.card-body{
+    background-color: #F9F9F9;
 }
-.inscription{
-   background-color: rgb(22, 161, 17);
-  padding: 50px;
-  width: 50%;
+h6{
+    font-weight: bold;
+    padding: 10px;
 }
+/* .baniere{
+    display: flex;
+    justify-content: center;
+} */

@@ -1,20 +1,22 @@
 
+import { Route, Routes } from 'react-router-dom'
 import Navbar from './components/Navbar'
 import Connexion from './components/Connexion'
 import Inscription from './components/Inscription'
-
 import Accueil from './components/Accueil'
-import { Route,Routes } from 'react-router-dom'
-import './App.css' 
+import Enfants from './components/Enfants'; 
+import './App.css'
+
 
 function App() {
-
   return (
     <>
+
      <div>
     <Navbar></Navbar>
     <Routes>
        <Route path='/' element={  <Accueil />} /> 
+       <Route path="/enfants" element={<Enfants />} />
       <Route path='/connexion' element={<Connexion></Connexion>} />
       <Route path='/inscription' element={<Inscription></Inscription>} />
     </ Routes>
@@ -25,5 +27,6 @@ function App() {
     </>
   )
 }
+
 
 export default App

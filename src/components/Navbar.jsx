@@ -2,6 +2,9 @@
 import React from "react";
 import '../../html-css-file/style.css'; 
 import logo from '../assets/logo.jpg'; 
+import { Link } from 'react-router-dom';
+
+<Link to="/enfants">Enfants</Link>
 
 function Navbar() {
     return (
@@ -16,23 +19,23 @@ function Navbar() {
                     </button>
 
                     <a className="navbar-brand" href="#">
-                        <img src={logo} className="img-fluid ronded" alt="Logo" />
+                        <img src={logo} className="img-fluid rounded-4" alt="Logo" />
                     </a>
 
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul className="navbar-nav d-flex justify-content-between mb-lg-0">
                             <li className="nav-item">
-                                <a className="nav-link active" aria-current="page" href="/Accueil">Accueil</a>
+                                <a className="nav-link active" aria-current="page" href="">Accueil</a>
                             </li>
                              <li className="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="" id="categorieDropdown" role="button" data-bs-toggle="dropdown"
+                                <a className="nav-link dropdown-toggle" href="" id="categorieDropdown" role="button" data-bs-toggle="dropdown"
                                     aria-expanded="false">
                                     Catégorie
                                 </a>
                                 <ul className="dropdown-menu" aria-labelledby="categorieDropdown">
-                                    <li><a  className="dropdown-item" href="#">Homme</a></li>
+                                    <li><a  className="dropdown-item" href="">Homme</a></li>
                                     <li><a className="dropdown-item" href="#">Femme</a></li>
-                                    <li><a className="dropdown-item" href="#">enfant</a></li>
+                                    <li><Link to="/enfants" className="dropdown-item">Enfants</Link></li>
                                 </ul>
                             </li>
                             <li className="nav-item">
