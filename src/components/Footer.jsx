@@ -18,9 +18,9 @@ function Footer() {
             <p className=" fw-bold">kaay-sangse25@gmail.com</p>
             <p className=" fw-bold">Nous rejoindre sur:</p>
             <div className="p-2">
-              <a href="https://www.facebook.com/share/1JoMrxdZrF/?mibextid=wwXIfr"><i className="fab fa-facebook h2 fa-2x text-light"></i></a>{' '}
-              <a href=" https://www.instagram.com/kaaysagnse2025?igsh=cDg1bHE1b20zbmJk&utm_source=ig_contact_invite"><i className="fab fa-instagram h2 fa-2x text-light"></i></a>{' '}
-              <a href="https://www.tiktok.com/"><i className="fab fa-tiktok h2 fa-2x text-light"></i></a>
+              <a href="https://www.facebook.com/share/1JoMrxdZrF/?mibextid=wwXIfr"><i className="bi bi-facebook"></i></a>{' '}
+              <a href=" https://www.instagram.com/kaaysagnse2025?igsh=cDg1bHE1b20zbmJk&utm_source=ig_contact_invite"><i className="bi bi-instagram"></i></a>{' '}
+              <a href="https://www.tiktok.com/"><i className="bi bi-tiktok"></i></a>
             </div>
           </div>
 

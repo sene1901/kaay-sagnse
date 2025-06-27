@@ -34,7 +34,7 @@ function Navbar() {
                                     Catégorie
                                 </a>
                                 <ul className="dropdown-menu" aria-labelledby="categorieDropdown">
-                                     <li><Link to="/Homme" className="dropdown-item">Homme</Link></li>
+                                     <li><Link to="/enfants" className="dropdown-item">Homme</Link></li>
                                     <li><a className="dropdown-item" href="#">Femme</a></li>
                                     <li><Link to="/enfants" className="dropdown-item">Enfants</Link></li>
                                 </ul>
