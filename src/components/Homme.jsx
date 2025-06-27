@@ -74,7 +74,7 @@ function Homme() {
                     <img src={img} className="card-img-top " alt="costume homme" />
                     <div>
                       <div className="ms-4">
-                        <h6>Collection Homme</h6>
+                        {/* <h6>Collection Homme</h6> */}
                         <h6>20 000 Fcfa</h6>
                       </div>
 
