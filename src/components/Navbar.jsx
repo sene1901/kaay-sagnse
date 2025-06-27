@@ -3,8 +3,9 @@ import React from "react";
 import '../../html-css-file/style.css'; 
 import logo from '../assets/logo.jpg'; 
 import { Link } from 'react-router-dom';
-
-<Link to="/enfants">Enfants</Link>
+<Link to="/accueil">Accueil</Link>;
+<Link to="/enfants">Enfants</Link>;
+<Link to="/Homme">Homme</Link>;
 
 function Navbar() {
     return (
@@ -25,7 +26,7 @@ function Navbar() {
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul className="navbar-nav d-flex justify-content-between mb-lg-0">
                             <li className="nav-item">
-                                <a className="nav-link active" aria-current="page" href="">Accueil</a>
+                                <Link to="/Accueil" className="nav-link active" aria-current="page">Accueil</Link>
                             </li>
                              <li className="nav-item dropdown">
                                 <a className="nav-link dropdown-toggle" href="" id="categorieDropdown" role="button" data-bs-toggle="dropdown"
@@ -33,7 +34,7 @@ function Navbar() {
                                     Catégorie
                                 </a>
                                 <ul className="dropdown-menu" aria-labelledby="categorieDropdown">
-                                    <li><a  className="dropdown-item" href="">Homme</a></li>
+                                     <li><Link to="/Homme" className="dropdown-item">Homme</Link></li>
                                     <li><a className="dropdown-item" href="#">Femme</a></li>
                                     <li><Link to="/enfants" className="dropdown-item">Enfants</Link></li>
                                 </ul>

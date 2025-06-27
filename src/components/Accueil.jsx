@@ -1,4 +1,3 @@
-
 import React from "react"
 import '../../html-css-file/style.css'
 import image1 from '../assets/IMG-20250625-WA0006.jpg';
@@ -8,14 +7,13 @@ import image4 from '../assets/IMG-20250625-WA0018.jpg';
 import image5 from '../assets/IMG-20250624-WA0055.jpg';
 import image6 from '../assets/IMG-20250624-WA0056.jpg';
 import image7 from '../assets/IMG-20250624-WA0057.jpg';
-// import image8 from '../assets/IMG-20250624-WA0058.jpg';
 import image9 from '../assets/IMG-20250624-WA0059.jpg';
 import image10 from '../assets/IMG-20250624-WA0060.jpg';
 import image11 from '../assets/IMG-20250624-WA0061.jpg';
 import image12 from '../assets/IMG-20250624-WA0062.jpg';
 import image13 from '../assets/IMG-20250624-WA0063.jpg';
 
-function Acceuil() {
+function Accueil() {
 
   return (
     <div className='nom'>
@@ -369,7 +367,7 @@ function Acceuil() {
                   </div>
                 </div>
               </div>
-            </div>
+            </div> 
           </div>
 
 
@@ -414,7 +412,7 @@ function Acceuil() {
                   </div>
                 </div>
               </div>
-            </div>
+            </div> 
 
             {/* Produit 2 */}
             <div className="col-lg-3 col-md-3 col-sm-12">

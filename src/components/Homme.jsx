@@ -1,7 +1,5 @@
 import React from "react";
 import '../../html-css-file/style-homme.css';
-
-
 import image1 from '../assets/IMG-20250624-WA0069.jpg';
 import image2 from '../assets/IMG-20250624-WA0070.jpg';
 import image3 from '../assets/IMG-20250624-WA0073.jpg';

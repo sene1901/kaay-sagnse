@@ -19,12 +19,11 @@ function App() {
 
        <Route path='/' element={  <Accueil />} /> 
        <Route path="/enfants" element={<Enfants />} />
+        <Route path='/Homme' element={  <Homme />} />
       <Route path='/connexion' element={<Connexion></Connexion>} />
       <Route path='/inscription' element={<Inscription></Inscription>} />
-      <Route path='/' element={  <Accueil />} />
-      <Route path='/Homme' element={  <Homme />} />
-      {/* <Route path='/connexion' element={<Connexion></Connexion>} /> */}
-      {/* <Route path='/inscription' element={<Inscription></Inscription>} /> */}
+     
+     
     </ Routes>
     <footer></footer>
     
