@@ -40,17 +40,11 @@ function App() {
     <Homme />
     {/* <Femme/> */}
 
+
     </>
-  )
+  );
 }
 
 
 export default App
-
-
-
-
-
-
-
 
